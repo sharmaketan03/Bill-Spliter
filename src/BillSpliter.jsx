@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 
 function BillSpliter() {
   const [amount,setamount]=useState()
-  const [TipPercent,setpercent]=useState(0)
-  const [NumberofPeople,setNumberofPeople]=useState(0)
+  const [TipPercent,setpercent]=useState()
+  const [NumberofPeople,setNumberofPeople]=useState()
   const [totaltip,settip]=useState(0)
   const [Totalamount,setTotalamount]=useState(0)
   const [peoples,setPeoples]=useState(0)
